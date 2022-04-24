@@ -11478,15 +11478,51 @@ footer a:focus {
     }
 }
 
-.p-main .img {
-    position: absolute;
+.p-main img  {
+    position: relative;
+    object-fit: cover;
 }
 
+.p-main{
+    margin: 1px !important;
+    width:200px;
+    overflow: hidden;
+    transition:0.1s;
+    
+}
+.p-main:hover{
+    transform: scale(1.1);
+    z-index: 99;
+   
+}
+
+
+@media  screen and (max-width:400px) {
+    .p-main{
+    width: auto !important;
+    }
+  
+}
 .paynow {
-    position: relative;
+    z-index: 9;
+    position: absolute;
     border-radius: 20px;
+    width: auto;
     color: #fefefe;
     background-image: linear-gradient(90deg, rgba(247, 24, 68, 1) 0%, rgba(247, 25, 136, 1) 100%);
-    top: 50px;
-    left: 10px;
+  
 }
+.sale_total{
+    font-size: 0.8rem;
+}
+
+.promo_card{
+    transition: 0.3s;
+}
+
+
+.promo_card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
