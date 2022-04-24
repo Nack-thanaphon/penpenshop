@@ -13,6 +13,9 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" />
 </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <body>
     <div class="container ">
@@ -35,7 +38,7 @@
                         <div class="col-6 text-start text-white">
                             <small>ราคา <span class="badge rounded-pill bg-warning">ราคาปกติ
                                     <del>550</del> บาท</span></small>
-                            <h3 class="p-0 m-0">350 บาท</h3>
+                            <h3 class="p-0 m-0">฿ 350 บาท</h3>
 
                         </div>
                         <div class="col-6 text-end text-white">
@@ -46,16 +49,20 @@
                 </div>
                 <div class="col-12 py-5">
                     <h2>รายละเอียดสินค้า</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum exercitationem, atque veniam
-                        minima eveniet odio rem nesciunt maxime amet alias. Ratione amet sint laboriosam rem ipsam fugit
-                        reprehenderit, adipisci aut!
-
+                    <p class="py-3">กระดาษชำระ <b>Scott Clean Care XXL</b> กระดาษทิชชู่ ขนาดจัมโบ้ (แพ็ค 6 ม้วน)
+                        ม้วนใหญ่
+                        ม้วนย๊าววยาววว
+                        ใช้ได้นานทั้งครอบครัว ผลิตจากเนื้อกระดาษผสานสารสกัดคอตตอนจากธรรมชาติ ผิวสัมผัสนุ่มกว่า หนา 3
+                        ชั้น มอบความสบายให้กับผิว พร้อมซึมซับได้อย่างดีเยี่ยม ให้ความรู้สึกสะอาด แห้งสบายผิว
+                        อย่างเหนือระดับ และสามารถดูดซับสิ่งสกปรกจากผิวได้อย่างหมดจด
                     </p>
                     <ul>
-                        <li>Lorem ipsum dolor sit amet.</li>
-                        <li>Lorem ipsum dolor sit amet.</li>
-                        <li>Lorem ipsum dolor sit amet.</li>
-                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>ผลิตจากเยื่อกระดาษคุณภาพสูง หนา นุ่ม</li>
+                        <li>กระดาษหนา 3 ชั้น ม้วนใหญ่พิเศษ</li>
+                        <li>ให้ความแห้งสะอาดหมดจดในการเช็ดเพียงครั้งเดียว</li>
+                        <li>กระดาษไม่หลุดลุ่ยง่าย ใช้งานสะดวกตลอดจนหมดม้วน
+                        </li>
+                        <li>กระดาษยาว 24.5 เมตร</li>
                     </ul>
                 </div>
                 <div class="col-12 py-2">
@@ -82,7 +89,7 @@
                                     <img width="100%"
                                         src="https://lzd-img-global.slatic.net/g/p/e07d036b1ef80b04cd31ae2f28c15249.jpg_720x720q80.jpg_.webp"
                                         class="img-top" alt="">
-                                    <b class="p-1">1 โหล</b>
+                                    <small class="p-1">1 โหล</small>
                                 </div>
                             </div>
                             <div class="col-4 col-sm-4">
@@ -90,7 +97,7 @@
                                     <img width="100%"
                                         src="https://lzd-img-global.slatic.net/g/p/e07d036b1ef80b04cd31ae2f28c15249.jpg_720x720q80.jpg_.webp"
                                         class="img-top" alt="">
-                                    <b class="p-1">5 โหล ส่งฟรี</b>
+                                    <small class="p-1">5 โหล ส่งฟรี</small>
                                 </div>
                             </div>
                             <div class="col-4 col-sm-4">
@@ -98,43 +105,109 @@
                                     <img width="100%"
                                         src="https://lzd-img-global.slatic.net/g/p/e07d036b1ef80b04cd31ae2f28c15249.jpg_720x720q80.jpg_.webp"
                                         class="img-top" alt="">
-                                    <b class="p-1">10 แถม 1 ส่งฟรี</b>
+                                    <small class="p-1">10 แถม 1 ส่งฟรี</small>
                                 </div>
                             </div>
 
-                        </div>
-                        <div class="col-12 my-3">
-                            <p class="p-0 m-0">หมายเหตุ</p>
-                            <small>หากสั่งซื้อขั้นต่ำ 100 แพ็ค จากหน่วยงานมีส่วนลดให้<span>
-                                    <a href="#">อ่านเพิ่มเติม</a>
-                                </span>
-                            </small>
+                            <div class="col-12 my-3">
+                                <b class="p-0 m-0">หมายเหตุ</b> <br>
+                                <small>สั่งซื้อขั้นต่ำ 10+ โหลขึ้นไป<span>
+                                        <a href="#" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">(กด)โปรโมชั่นเพิ่มเติม</a>
+                                    </span>
+                                </small>
+                            </div>
                         </div>
                     </div>
                     <div class="my-3">
-                        <button class="btn btn-primary w-100">
-                            สนใจสั่งซื้อ
-                        </button>
+                        <a href="tel:0856646929">
+                            <button class="btn btn-primary w-100">
+                                <i class="fa-solid fa-phone"></i>
+                                สนใจสั่งซื้อ
+                            </button>
+                        </a>
+
                     </div>
 
                 </div>
 
                 <footer class="d-block d-sm-none">
-                    <div class="col-12 mt-5 fixed-bottom bg-white shadow-sm pt-1">
+                    <div class="col-12 mt-5 fixed-bottom bg-white shadow-lg p-3">
                         <div class="row">
                             <div class="col-4">
-                                <button class="btn btn-success w-100">
-                                    Line
-                                </button>
+
+                                <a href="https://lin.ee/fynjq6X">
+                                    <button class="btn btn-success w-100">
+                                        <i class="fa-brands fa-line"></i>
+                                        Line
+                                    </button>
+                                </a>
                             </div>
                             <div class="col-8">
-                                <button class="btn btn-primary w-100">
-                                    Facebook
-                                </button>
+                                <a href="https://m.me/101036852172597">
+                                    <button class="btn btn-primary w-100">
+                                        <i class="fa-brands fa-facebook-messenger"></i>
+                                        Facebook
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </footer>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">โปรโมชั่นสำหรับ 10 โหลขึ้นไป</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <img width="100%"
+                                src="https://lzd-img-global.slatic.net/g/p/e07d036b1ef80b04cd31ae2f28c15249.jpg_720x720q80.jpg_.webp"
+                                class="py-3" alt="">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <h5 class="py-3">Lorem ipsum dolor sit amet.</h5>
+                            <small>สำหรับลูกค้าองค์กร</small>
+                            <ul>
+                                <li>
+                                    <small>10 โหล เหลือ โหลล่ะ <span>100</span> บาท</small>
+                                </li>
+                                <li>
+                                    <small>20 โหล เหลือ <span>90</span> บาท</small>
+                                </li>
+                                <li>
+                                    <small>100 โหล เหลือ <span>75</span> บาท</small>
+                                </li>
+
+                            </ul>
+                            <small>ต้องการออกบิลใบเสร็จรับเงินติดต่อแอดมิน</small>
+                        </div>
+                        <div class="modal-footer ">
+                            <a href="https://m.me/101036852172597" class="btn btn-success w-100">
+                                <i class="fa-brands fa-line"></i>
+                                ติดต่อแอดมิน
+                            </a>
+                            <a href="tel:0856646929" class="btn btn-primary w-100">
+                                <i class="fa-solid fa-phone"></i>
+                                สนใจสั่งซื้อ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
         </div>
     </div>
